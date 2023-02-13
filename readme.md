@@ -6,3 +6,8 @@ node server.js 3459
 ```
 
 You can also launch this with "npm start" or "npm test" and the server starts on port 3000.
+
+With the dockerfile you can also create a container with: 
+``` bash
+docker buildx build -t image-name:tag .
+```
